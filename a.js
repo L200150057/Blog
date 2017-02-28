@@ -10,4 +10,7 @@ var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456
 	var encodedString = window.location.href;
 	var x = getSecondPart(encodedString);
 	var decodedString = Base64.decode(x); // Outputs: "Hello World!"
+    function a(){
+	    window.open(decodedString);
+    }
 </script>
