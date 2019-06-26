@@ -1,0 +1,14 @@
+$theme-colors: (
+    "orange": #f9bf3b,
+    "jindigo": #204360,
+    "ghost": #f6f8fa,
+    "gunmetal": #22313f,
+    "lcyan": #d7f5ff,
+    "wblue": #8399AA
+);
+
+$input-border-radius: 0px;
+$card-border-radius: 0px;
+$link-hover-decoration: none !default;
+
+@import "node_modules/bootstrap/scss/bootstrap";
