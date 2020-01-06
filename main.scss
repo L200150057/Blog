@@ -1,14 +1,18 @@
-$theme-colors: (
-    "orange": #f9bf3b,
-    "jindigo": #204360,
-    "ghost": #f6f8fa,
-    "gunmetal": #22313f,
-    "lcyan": #d7f5ff,
-    "wblue": #8399AA
-);
+// $theme-colors: (
+//     "orange": #f9bf3b,
+//     "jindigo": #204360,
+//     "ghost": #f6f8fa,
+//     "gunmetal": #22313f,
+//     "lcyan": #d7f5ff,
+//     "wblue": #8399AA
+// );
 
-$input-border-radius: 0px;
-$card-border-radius: 0px;
-$link-hover-decoration: none !default;
+// $input-border-radius: 0px;
+// $card-border-radius: 0px;
+// $link-hover-decoration: none !default;
 
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins ";
+
+@import "node_modules/bootstrap/scss/alert";
